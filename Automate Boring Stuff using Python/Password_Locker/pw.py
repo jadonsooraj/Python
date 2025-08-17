@@ -4,7 +4,7 @@
 import sys, pyperclip, os, json
 
 # JSON file with passwords
-DATA_FILE = r'D:\Coding\Python\Automate Boring Stuff using Python\Password_Locker\pw_data.json'
+DATA_FILE = r'...\Password_Locker\pw_data.json'
 
 # Check for json file if exist and load stored passwords
 with open(DATA_FILE,'r') as f:
