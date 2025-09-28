@@ -1,0 +1,11 @@
+account_id,first_name,last_name,age,account_status,total_receivable,NPA_status
+101,Amit,Sharma,28,Active,15000,No
+102,Priya,Verma,34,Inactive,23000,Yes
+103,Raj,Singh,45,Active,5000,No
+104,Neha,Patel,29,Closed,0,No
+105,Arjun,Mehta,38,Active,12000,Yes
+106,Sneha,Rao,31,Active,18000,No
+107,Vikas,Yadav,50,Inactive,25000,Yes
+108,Kiran,Iyer,27,Active,7000,No
+109,Rohit,Kapoor,42,Closed,0,No
+110,Anjali,Nair,36,Active,21000,Yes
