@@ -1,19 +1,23 @@
-# reverse a dictionary using dict comprehension
-def reverse_dict(dict1:dict)->dict:
-    rev_dict={value:key for key,value in dict1.items()}
-    return rev_dict
-# reverse a list without reverse function
-def reverse_list(lst:list)->list:
-    rev_list=lst[::-1]
-    return rev_list
+def check_prime(x:int)->bool:
+    for num in range(2,x):
+        if x%num==0:
+            return False
+    return True
+
+def factorial(x:int)->int:
+    if x==1:
+        return 1
+    else:
+        return x*factorial(x-1)
+
+def fib_series(x:int)->list:
+    a,b=0,1
+    ans=[]
+    for i in range(x):
+        ans.append(a)
+        a,b=b,a+b
+    
+    return ans           
 
 if __name__=='__main__':
-    # generate a list using List Comprehension
-    l1=[i for i in range(4)]
-    print(f'List: {l1}')
-    print(f'Reverse list: {reverse_list(l1)}')
-
-    #generate a dictionary using dict comprehension
-    dict1={i:f'item{i}' for i in range(3)}
-    print(f'Dictionary: {dict1}')
-    print(f'Reverse key<->Value: {reverse_dict(dict1)}')
+    print(fib_series(4))
