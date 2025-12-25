@@ -20,8 +20,8 @@ driver.get("https://leetcode.com/accounts/login/")
 #     By.CSS_SELECTOR,
 #     "div.nav-menu > a:nth-of-type(5)"
 # ).click()
-driver.find_element(By.ID,'id_login').send_keys('jadonsuraj49@gmail.com')
-driver.find_element(By.ID,'id_password').send_keys('Sooryaa@1029')
+driver.find_element(By.ID,'id_login').send_keys('49@gmail.com')
+driver.find_element(By.ID,'id_password').send_keys('password')
 time.sleep(10)
 
 
